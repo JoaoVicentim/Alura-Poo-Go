@@ -24,6 +24,7 @@ func main() {
 	contaDaGigi = new(ContaCorrente)
 	contaDaGigi.titular = "Gigi"
 	contaDaGigi.saldo = 328367
+	fmt.Println("Alterei no VS")
 
 	fmt.Println(contaDaGigi)
 
