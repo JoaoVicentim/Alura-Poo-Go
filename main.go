@@ -20,11 +20,12 @@ func main() {
 	fmt.Println(contaDaBruna)
 
 	//*(ponteiro) ContaCorrente serve para indicar que estamos utilizando uma determinada ContaCorrente
+	//ponteiros "agem de baixo dos panos"
 	var contaDaGigi *ContaCorrente
 	contaDaGigi = new(ContaCorrente)
 	contaDaGigi.titular = "Gigi"
 	contaDaGigi.saldo = 328367
 
-	fmt.Println(contaDaGigi)
+	fmt.Println(*contaDaGigi)
 
 }
