@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"Alura-Poo-Go/contas"
+	"github.com/JoaoVicentim/Alura-Poo-Go.git/contas"
 )
 
 func main() {
